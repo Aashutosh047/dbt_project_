@@ -1,0 +1,11 @@
+learning_dbt:
+  outputs:
+    dev:
+      catalog: workspace
+      host: dbc-7224e5e4-853e.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/a563e49f4859ee08
+      schema: default
+      threads: 1
+      token: ${{secrets.TOKEN}}
+      type: databricks
+  target: dev

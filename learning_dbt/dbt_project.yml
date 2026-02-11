@@ -38,3 +38,7 @@ models:
     silver:
       +materialized: table
       +schema: silver
+seeds:
+  learning_dbt:
+    # Config indicated by + and applies to all files under seeds/
+    +schema: bronze

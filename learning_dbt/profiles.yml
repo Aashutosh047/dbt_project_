@@ -6,6 +6,6 @@ learning_dbt:
       http_path: /sql/1.0/warehouses/a563e49f4859ee08
       schema: default
       threads: 1
-      token: ${TOKEN}
+      token: {TOKEN}
       type: databricks
   target: dev
